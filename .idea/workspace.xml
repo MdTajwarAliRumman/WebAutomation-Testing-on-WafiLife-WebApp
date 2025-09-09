@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b5f6869c-5541-4330-8d74-c14d7a6ee238" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Project_WafiLife/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_WafiLife/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_WafiLife/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_WafiLife/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_WafiLife/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_WafiLife/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_WafiLife/src/main/java/org/example/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_WafiLife/src/test/java/org/example/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_WafiLife/src/test/java/pages/BasePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_WafiLife/src/test/java/pages/HomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_WafiLife/src/test/java/testcases/TestHomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_WafiLife/src/test/java/utilities/DataSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project_WafiLife/src/test/java/utilities/DriverSetup.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../Project_WafiLife" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 6
+}]]></component>
+  <component name="ProjectId" id="32Rc48qZOWnzjD5U4n0OpoUaRMW" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
+    "git-widget-placeholder": "master"
+  }
+}]]></component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b5f6869c-5541-4330-8d74-c14d7a6ee238" name="Changes" comment="" />
+      <created>1757386632873</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1757386632873</updated>
+    </task>
+    <servers />
+  </component>
+</project>
