@@ -43,8 +43,7 @@ public class DriverSetup {
     public void openBrowser() {
         WebDriver driver = getBrowser(browserName);
 
-        //eta must likha lagbe browser e
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(6));
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
         driver.manage().window().maximize();
         setDriver(driver);
     }

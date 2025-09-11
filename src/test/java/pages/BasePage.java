@@ -40,6 +40,7 @@ public class BasePage {
     public void getElementTxt(By locator){
         getElement(locator).getText();
     }
+
     public boolean is_Element_Visible(By locator){
         try {
             return getElement(locator).isDisplayed();
