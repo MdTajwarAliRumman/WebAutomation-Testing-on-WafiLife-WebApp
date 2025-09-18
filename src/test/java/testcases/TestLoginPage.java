@@ -7,7 +7,6 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import pages.HomePage;
 import pages.LoginPage;
-import pages.MyAccountPage;
 import utilities.DataSet;
 import utilities.DriverSetup;
 
@@ -53,8 +52,8 @@ public class TestLoginPage extends DriverSetup {
     public void testRegistrationWithValidCredentials(){
         homePage.clickOnElement(homePage.Signup_Login_btn);
         loginPage.writeOnElement(loginPage.name_field,"Tajwar");
-        loginPage.writeOnElement(loginPage.phone_field,"01399354148");
-        loginPage.writeOnElement(loginPage.email_field,"votene9586@dextrago.com");
+        loginPage.writeOnElement(loginPage.phone_field,"01399354145");
+        loginPage.writeOnElement(loginPage.email_field,"cijoyet520@kwifa.com");
         loginPage.writeOnElement(loginPage.password_field,"12345678");
         loginPage.writeOnElement(loginPage.confirmPass_field,"12345678");
         loginPage.clickOnElement(loginPage.register_btn);
@@ -62,5 +61,18 @@ public class TestLoginPage extends DriverSetup {
         Assert.assertFalse(loginPage.is_Element_Visible(loginPage.register_btn));
     }
 
+    @Test(dataProvider = "invalidRegisterCredentialsSet", dataProviderClass = DataSet.class)
+    public void testRegistrationWithInvalidCredentials(String name, String phone, String email, String pass, String confirm_pass, String error_msg,String logout_txt ){
+        loginPage.writeOnElement(loginPage.name_field, name);
+        loginPage.writeOnElement(loginPage.phone_field, phone);
+        loginPage.writeOnElement(loginPage.email_field, email);
+        loginPage.writeOnElement(loginPage.password_field,pass);
+        loginPage.writeOnElement(loginPage.confirmPass_field,confirm_pass);
+        loginPage.clickOnElement(loginPage.register_btn);
+        if (loginPage.is_Element_Visible(loginPage.error_msg1))
+            Assert.assertEquals(loginPage.getElement(loginPage.error_password).getText(), error_msg);
+        Assert.assertTrue(loginPage.is_Element_Visible(loginPage.register_btn));
+
+    }
 
 }

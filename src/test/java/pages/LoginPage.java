@@ -13,6 +13,10 @@ public class LoginPage extends BasePage {
     public By error_blank = By.xpath("//li[contains(text(),'অনুগ্রহ করে সঠিক ইমেইল প্রদান করুন')]");
     public By error_password = By.xpath("//li[contains(text(),'অনুগ্রহ করে আপনার পাসওয়ার্ড প্রদান করুন')]");
     public By error_name = By.xpath("//li[contains(text(),'নাম প্রয়োজন!')]");
+    public By error_msg5 = By.xpath("//ul[@class='woocommerce-error']//li");
+    public By error_blankPhn = By.xpath("//div[@id='main-module-container']//li[1]");
+    public By logout_txt = By.xpath("//a[contains(text(),'লগ অউট করুন')]");
+
 
 
     public By login_email_name_field = By.xpath("//input[@id='username']");
