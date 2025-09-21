@@ -1,19 +1,16 @@
 package testcases;
 
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import pages.HomePage;
-import pages.SearchPage;
+import pages.AuthorPage;
 import utilities.DriverSetup;
-
-import javax.swing.*;
 
 public class TestHomePage extends DriverSetup {
     HomePage homePage = new HomePage();
-    SearchPage searchPage = new SearchPage();
+    AuthorPage searchPage = new AuthorPage();
 
     @BeforeMethod
     public void loadHomeTestPage() {

@@ -5,14 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b5f6869c-5541-4330-8d74-c14d7a6ee238" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../Project_WafiLife/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_WafiLife/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Project_WafiLife/src/test/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_WafiLife/src/test/java/pages/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Project_WafiLife/src/test/java/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_WafiLife/src/test/java/pages/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Project_WafiLife/src/test/java/pages/MyAccountPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_WafiLife/src/test/java/pages/TrendingBookPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Project_WafiLife/src/test/java/testcases/TestAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_WafiLife/src/test/java/testcases/TestTrendingBookPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Project_WafiLife/src/test/java/testcases/TestHomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_WafiLife/src/test/java/testcases/TestHomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Project_WafiLife/src/test/java/testcases/TestLoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_WafiLife/src/test/java/testcases/TestLoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Project_WafiLife/src/test/java/utilities/DataSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_WafiLife/src/test/java/utilities/DataSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testcases/TestAuthorPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/SearchPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/AuthorPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/TrendingBookPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/TrendingBookPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testcases/TestHomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testcases/TestHomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testcases/TestTrendingBookPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testcases/TestTrendingBookPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/DriverSetup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/DriverSetup.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,7 +27,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../Project_WafiLife" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
@@ -46,6 +46,8 @@
     "RunOnceActivity.git.unshallow": "true",
     "TestNG.TestAccount.executor": "Run",
     "TestNG.TestAccount.testlogin.executor": "Run",
+    "TestNG.TestAuthorPage.executor": "Run",
+    "TestNG.TestAuthorPage.testIndividualAuthorBooks.executor": "Run",
     "TestNG.TestHomePage.checkHomePageTitle.executor": "Run",
     "TestNG.TestHomePage.checkHomePageUrl.executor": "Run",
     "TestNG.TestHomePage.executor": "Run",
@@ -56,11 +58,53 @@
     "TestNG.TestLoginPage.testLoginWithValidCreds.executor": "Run",
     "TestNG.TestLoginPage.testRegistrationWithInvalidCredentials.executor": "Run",
     "TestNG.TestLoginPage.testRegistrationWithValidCredentials.executor": "Run",
+    "TestNG.TestTrendingBookPage.executor": "Run",
     "TestNG.TestTrendingBookPage.testTrendingBookSection.executor": "Run",
-    "git-widget-placeholder": "master"
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/Tajwar (Day Shift)/Desktop/All Important docs/Automation tests/WebAutomation projects/WafiLife/Project_WafiLife"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.TestTrendingBookPage.testTrendingBookSection">
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="testcases" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.TestAuthorPage.testIndividualAuthorBooks">
+    <configuration name="TestAuthorPage" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Project_WafiLife." />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testcases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testcases" />
+      <option name="MAIN_CLASS_NAME" value="testcases.TestAuthorPage" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestAuthorPage.testIndividualAuthorBooks" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Project_WafiLife." />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testcases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testcases" />
+      <option name="MAIN_CLASS_NAME" value="testcases.TestAuthorPage" />
+      <option name="METHOD_NAME" value="testIndividualAuthorBooks" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestHomePage" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Project_WafiLife." />
       <extension name="coverage">
@@ -78,7 +122,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestHomePage.checkHomePageUrl" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestTrendingBookPage" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Project_WafiLife." />
       <extension name="coverage">
         <pattern>
@@ -87,45 +131,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="testcases" />
-      <option name="MAIN_CLASS_NAME" value="testcases.TestHomePage" />
-      <option name="METHOD_NAME" value="checkHomePageUrl" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestHomePage.testSearchBar" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Project_WafiLife." />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="testcases.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="testcases" />
-      <option name="MAIN_CLASS_NAME" value="testcases.TestHomePage" />
-      <option name="METHOD_NAME" value="testSearchBar" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestLoginPage.testLoginWithValidCreds" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Project_WafiLife." />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="testcases.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="testcases" />
-      <option name="MAIN_CLASS_NAME" value="testcases.TestLoginPage" />
-      <option name="METHOD_NAME" value="testLoginWithValidCreds" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="MAIN_CLASS_NAME" value="testcases.TestTrendingBookPage" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -152,11 +159,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.TestTrendingBookPage.testTrendingBookSection" />
-        <item itemvalue="TestNG.TestHomePage.testSearchBar" />
+        <item itemvalue="TestNG.TestAuthorPage.testIndividualAuthorBooks" />
+        <item itemvalue="TestNG.TestAuthorPage" />
+        <item itemvalue="TestNG.TestTrendingBookPage" />
         <item itemvalue="TestNG.TestHomePage" />
-        <item itemvalue="TestNG.TestHomePage.checkHomePageUrl" />
-        <item itemvalue="TestNG.TestLoginPage.testLoginWithValidCreds" />
+        <item itemvalue="TestNG.TestTrendingBookPage.testTrendingBookSection" />
       </list>
     </recent_temporary>
   </component>
