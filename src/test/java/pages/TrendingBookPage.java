@@ -12,6 +12,7 @@ public class TrendingBookPage extends BasePage {
     public By read_book = By.xpath("//button[contains(text(),'একটু পড়ে দেখুন')]");
     public By cross_window = By.xpath("//i[@class='fa fa-times-circle']");
     public By purchase_btn = By.xpath("//button[@class='single_add_to_cart_button button alt ']");
+
     HomePage homePage = new HomePage();
     LoginPage loginPage = new LoginPage();
 

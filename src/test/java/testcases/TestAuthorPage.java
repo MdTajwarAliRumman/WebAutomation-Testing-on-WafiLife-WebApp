@@ -11,10 +11,10 @@ import utilities.DriverSetup;
 public class TestAuthorPage extends DriverSetup {
     HomePage homePage = new HomePage();
     AuthorPage authorPage = new AuthorPage();
-    JavascriptExecutor js = (JavascriptExecutor)getDriver();
+    JavascriptExecutor js = (JavascriptExecutor) getDriver();
 
     @BeforeMethod
-    public void loadAuthorPage() {
+    public void loadAuthorTestPage() {
         getDriver().get(homePage.url);
         authorPage.navigateToAuthorPage();
     }
@@ -22,8 +22,9 @@ public class TestAuthorPage extends DriverSetup {
     @Test
     public void testIndividualAuthorBooks() throws InterruptedException {
         WebElement author_Name = homePage.getElement(homePage.author_one);
-        js.executeScript("arguments[0].scrollIntoView()",author_Name);
+        js.executeScript("arguments[0].scrollIntoView()", author_Name);
         homePage.clickOnElement(homePage.author_select);
-        Thread.sleep(2000);
+        homePage.clickOnElement(homePage.book1);
+        Thread.sleep(1000);
     }
 }
