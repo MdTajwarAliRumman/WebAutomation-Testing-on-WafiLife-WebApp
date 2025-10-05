@@ -29,8 +29,13 @@ public class TestBookFairPage extends DriverSetup {
         actions.scrollByAmount(0,800).build().perform();
         Thread.sleep(2000);
         bookFairPage.clickOnElement(bookFairPage.muslim_itihash);
+        bookFairPage.clickOnElement(bookFairPage.placeOrder_btn);
+        bookFairPage.clickOnElement(bookFairPage.viewMore_btn);
+        bookFairPage.clickOnElement(bookFairPage.cart);
+        bookFairPage.clickOnElement(bookFairPage.crossIcon);
 
-        Thread.sleep(1000);
+
+        Thread.sleep(2000);
     }
 
 }
