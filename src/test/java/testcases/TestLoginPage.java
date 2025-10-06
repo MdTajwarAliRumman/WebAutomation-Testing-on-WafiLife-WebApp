@@ -74,5 +74,4 @@ public class TestLoginPage extends DriverSetup {
         Assert.assertTrue(loginPage.is_Element_Visible(loginPage.register_btn));
 
     }
-
 }

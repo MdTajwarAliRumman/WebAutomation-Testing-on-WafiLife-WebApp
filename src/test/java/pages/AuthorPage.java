@@ -14,7 +14,9 @@ public class AuthorPage extends BasePage{
     public By searchBar = By.xpath("//input[@id='cat_search']");
     public By search_btn = By.xpath("//button[@class='btn btn-default']");
     public By single_Author = By.xpath("//h3[contains(text(),'শায়খ আহমাদুল্লাহ')]");
-
+    public By cartBox = By.xpath("//a[@title='View your shopping cart']");
+    public By remove_product = By.xpath("//div[@class='right cart-tab light visible open']//li[1]//a[1]");
+    public By checkout_btn = By.xpath("//a[@class='button checkout wc-forward']");
 
     HomePage homePage = new HomePage();
 

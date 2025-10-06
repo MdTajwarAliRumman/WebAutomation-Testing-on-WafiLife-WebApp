@@ -1,5 +1,6 @@
 package testcases;
 
+import io.qameta.allure.Description;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
@@ -21,7 +22,8 @@ public class TestAuthorPage extends DriverSetup {
 
     }
 
-    @Test
+    @Test(description = "Testing individual Author selection with book purchasing")
+    @Description("Authenticated User is trying to purchase books by selecting author and order process ")
     public void testIndividualAuthorBooks() throws InterruptedException {
 //        WebElement author_Name = homePage.getElement(homePage.author_one);
 //        js.executeScript("arguments[0].scrollIntoView()", author_Name);
@@ -41,6 +43,13 @@ public class TestAuthorPage extends DriverSetup {
         Thread.sleep(3000);
         authorPage.clickOnElement(authorPage.Book2);
         authorPage.clickOnElement(authorPage.order_btn);
+        Thread.sleep(2000);
+        authorPage.clickOnElement(authorPage.cartBox);
+        authorPage.clickOnElement(authorPage.remove_product);
+        authorPage.clickOnElement(authorPage.cartBox);
+        Thread.sleep(2000);
+        authorPage.clickOnElement(authorPage.checkout_btn);
+        Thread.sleep(3000);
 
     }
 }
