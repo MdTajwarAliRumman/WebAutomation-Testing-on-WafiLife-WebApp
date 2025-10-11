@@ -6,9 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b5f6869c-5541-4330-8d74-c14d7a6ee238" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/AuthorPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/AuthorPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testcases/TestAuthorPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testcases/TestAuthorPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testcases/TestLoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testcases/TestLoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/HomePage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,42 +31,43 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;TestNG.TestAccount.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.TestAccount.testlogin.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.TestAuthorPage.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.TestAuthorPage.testIndividualAuthorBooks.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.TestBookFairPage.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.TestBookFairPage.testBookFairPageBooks.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.TestHomePage.checkHomePageTitle.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.TestHomePage.checkHomePageUrl.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.TestHomePage.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.TestHomePage.testSearchBar.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.TestLoginPage.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.TestLoginPage.testLoginWithInvalidCredentials.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.TestLoginPage.testLoginWithValidCredentials.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.TestLoginPage.testLoginWithValidCreds.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.TestLoginPage.testRegistrationWithInvalidCredentials.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.TestLoginPage.testRegistrationWithValidCredentials.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.TestTrendingBookPage.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.TestTrendingBookPage.testTrendingBookSection.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Tajwar (Day Shift)/Desktop/All Important docs/Automation tests/WebAutomation projects/WafiLife/Project_WafiLife&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "TestNG.TestAccount.executor": "Run",
+    "TestNG.TestAccount.testlogin.executor": "Run",
+    "TestNG.TestAuthorPage.executor": "Run",
+    "TestNG.TestAuthorPage.testIndividualAuthorBooks.executor": "Run",
+    "TestNG.TestBookFairPage.executor": "Run",
+    "TestNG.TestBookFairPage.testBookFairPageBooks.executor": "Run",
+    "TestNG.TestHomePage.checkHomePageTitle.executor": "Run",
+    "TestNG.TestHomePage.checkHomePageUrl.executor": "Run",
+    "TestNG.TestHomePage.executor": "Run",
+    "TestNG.TestHomePage.testSearchBar.executor": "Run",
+    "TestNG.TestLoginPage.executor": "Run",
+    "TestNG.TestLoginPage.testLoginWithInvalidCredentials.executor": "Run",
+    "TestNG.TestLoginPage.testLoginWithValidCredentials.executor": "Run",
+    "TestNG.TestLoginPage.testLoginWithValidCreds.executor": "Run",
+    "TestNG.TestLoginPage.testRegistrationWithInvalidCredentials.executor": "Run",
+    "TestNG.TestLoginPage.testRegistrationWithValidCredentials.executor": "Run",
+    "TestNG.TestRandomProductPage.executor": "Run",
+    "TestNG.TestTrendingBookPage.executor": "Run",
+    "TestNG.TestTrendingBookPage.testTrendingBookSection.executor": "Run",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/Tajwar (Day Shift)/Desktop/All Important docs/Automation tests/WebAutomation projects/WafiLife/Project_WafiLife"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="pages" />
       <recent name="testcases" />
+      <recent name="pages" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.TestAuthorPage">
+  <component name="RunManager" selected="TestNG.TestRandomProductPage">
     <configuration name="TestAuthorPage" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Project_WafiLife." />
       <extension name="coverage">
@@ -98,23 +97,6 @@
       <option name="MAIN_CLASS_NAME" value="testcases.TestAuthorPage" />
       <option name="METHOD_NAME" value="testIndividualAuthorBooks" />
       <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestBookFairPage" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Project_WafiLife." />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="testcases.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="testcases" />
-      <option name="MAIN_CLASS_NAME" value="testcases.TestBookFairPage" />
-      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -157,13 +139,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestRandomProductPage" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Project_WafiLife." />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testcases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testcases" />
+      <option name="MAIN_CLASS_NAME" value="testcases.TestRandomProductPage" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.TestRandomProductPage" />
         <item itemvalue="TestNG.TestAuthorPage" />
         <item itemvalue="TestNG.TestAuthorPage.testIndividualAuthorBooks" />
         <item itemvalue="TestNG.TestBookFairPage.testBookFairPageBooks" />
         <item itemvalue="TestNG.TestHomePage.testSearchBar" />
-        <item itemvalue="TestNG.TestBookFairPage" />
       </list>
     </recent_temporary>
   </component>

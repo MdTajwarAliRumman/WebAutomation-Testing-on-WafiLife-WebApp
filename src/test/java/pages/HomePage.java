@@ -15,6 +15,9 @@ public class HomePage extends BasePage {
     public By book1 = By.xpath("//a[contains(text(),'রমযান নিয়ে শায়খ আহমাদুল্লাহ`র তিনটি সংকলন একসাথে (')]");
     public By show_all = By.xpath("//a[contains(text(),'পুরো লিস্ট দেখুন')]");
 
+    public By food_items = By.xpath("//h3[normalize-space()='Food']");
+    public By food1 = By.xpath("//div[contains(@class,'owl-item active')]//a[contains(text(),'Sabuj Udyog – Sundarban Natural Honey (সুন্দরবনের ')]");
+    public By different_items = By.xpath("//h3[contains(text(),'অন্যান্য পণ্য')]");
 
     public void loadHomePage() {
         loadAWebPage(url);
