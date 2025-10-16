@@ -1,5 +1,6 @@
 package testcases;
 
+import io.qameta.allure.Description;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.testng.Assert;
@@ -27,7 +28,8 @@ public class TestLoginPage extends DriverSetup {
 //        myAccountPage.navigateToAccountPage();
 //    }
 
-    @Test
+    @Test(description = "Testing login with valid credentials.")
+    @Description("Should be able to login using valid credentials")
     public void testLoginWithValidCreds() {
         homePage.getElement(homePage.Signup_Login_btn).click();
         loginPage.writeOnElement(loginPage.login_email_name_field, "bimoke9741@dpwev.com");
@@ -38,6 +40,7 @@ public class TestLoginPage extends DriverSetup {
     }
 
     @Test(dataProvider = "invalidCredentialsSet", dataProviderClass = DataSet.class)
+    @Description("Should not be able to login using invalid credentials")
     public void testLoginWithInvalidCredentials(String email, String password, String error_msg1) {
         loginPage.writeOnElement(loginPage.login_email_name_field, email);
         loginPage.writeOnElement(loginPage.login_pass_field, password);
@@ -48,7 +51,8 @@ public class TestLoginPage extends DriverSetup {
         Assert.assertTrue(loginPage.is_Element_Visible(loginPage.login_btn));
     }
 
-    @Test
+    @Test(description = "Testing Registration with valid Credentials")
+    @Description("Users Should be able to register using valid credentials")
     public void testRegistrationWithValidCredentials(){
         homePage.clickOnElement(homePage.Signup_Login_btn);
         loginPage.writeOnElement(loginPage.name_field,"Tajwar");
@@ -62,6 +66,7 @@ public class TestLoginPage extends DriverSetup {
     }
 
     @Test(dataProvider = "invalidRegisterCredentialsSet", dataProviderClass = DataSet.class)
+    @Description("Should not be able to Register using invalid credentials")
     public void testRegistrationWithInvalidCredentials(String name, String phone, String email, String pass, String confirm_pass, String error_msg,String logout_txt ){
         loginPage.writeOnElement(loginPage.name_field, name);
         loginPage.writeOnElement(loginPage.phone_field, phone);

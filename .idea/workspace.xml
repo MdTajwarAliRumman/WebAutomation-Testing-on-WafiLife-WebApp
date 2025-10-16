@@ -6,7 +6,14 @@
   <component name="ChangeListManager">
     <list default="true" id="b5f6869c-5541-4330-8d74-c14d7a6ee238" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/RandomProductPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/RandomProductPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testcases/TestBookFairPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testcases/TestBookFairPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testcases/TestHomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testcases/TestHomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testcases/TestLoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testcases/TestLoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testcases/TestRandomProductPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testcases/TestRandomProductPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testcases/TestTrendingBookPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testcases/TestTrendingBookPage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +51,7 @@
     "TestNG.TestAuthorPage.testIndividualAuthorBooks.executor": "Run",
     "TestNG.TestBookFairPage.executor": "Run",
     "TestNG.TestBookFairPage.testBookFairPageBooks.executor": "Run",
+    "TestNG.TestFooterSection.executor": "Run",
     "TestNG.TestHomePage.checkHomePageTitle.executor": "Run",
     "TestNG.TestHomePage.checkHomePageUrl.executor": "Run",
     "TestNG.TestHomePage.executor": "Run",
@@ -55,6 +63,9 @@
     "TestNG.TestLoginPage.testRegistrationWithInvalidCredentials.executor": "Run",
     "TestNG.TestLoginPage.testRegistrationWithValidCredentials.executor": "Run",
     "TestNG.TestRandomProductPage.executor": "Run",
+    "TestNG.TestRandomProductPage.testIndividualAuthorBooks.executor": "Run",
+    "TestNG.TestRandomProductPage.testRandomItemPage.executor": "Run",
+    "TestNG.TestRandomProductPage.testTheSahabiBookPage.executor": "Run",
     "TestNG.TestTrendingBookPage.executor": "Run",
     "TestNG.TestTrendingBookPage.testTrendingBookSection.executor": "Run",
     "git-widget-placeholder": "master",
@@ -63,12 +74,12 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="testcases" />
       <recent name="pages" />
+      <recent name="testcases" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.TestRandomProductPage">
-    <configuration name="TestAuthorPage" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.TestFooterSection">
+    <configuration name="TestFooterSection" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Project_WafiLife." />
       <extension name="coverage">
         <pattern>
@@ -77,62 +88,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="testcases" />
-      <option name="MAIN_CLASS_NAME" value="testcases.TestAuthorPage" />
+      <option name="MAIN_CLASS_NAME" value="testcases.TestFooterSection" />
       <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestAuthorPage.testIndividualAuthorBooks" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Project_WafiLife." />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="testcases.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="testcases" />
-      <option name="MAIN_CLASS_NAME" value="testcases.TestAuthorPage" />
-      <option name="METHOD_NAME" value="testIndividualAuthorBooks" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestBookFairPage.testBookFairPageBooks" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Project_WafiLife." />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="testcases.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="testcases" />
-      <option name="MAIN_CLASS_NAME" value="testcases.TestBookFairPage" />
-      <option name="METHOD_NAME" value="testBookFairPageBooks" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestHomePage.testSearchBar" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Project_WafiLife." />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="testcases.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="testcases" />
-      <option name="MAIN_CLASS_NAME" value="testcases.TestHomePage" />
-      <option name="METHOD_NAME" value="testSearchBar" />
-      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -156,13 +113,67 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestRandomProductPage.testIndividualAuthorBooks" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Project_WafiLife." />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testcases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testcases" />
+      <option name="MAIN_CLASS_NAME" value="testcases.TestRandomProductPage" />
+      <option name="METHOD_NAME" value="testIndividualAuthorBooks" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestRandomProductPage.testRandomItemPage" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Project_WafiLife." />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testcases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testcases" />
+      <option name="MAIN_CLASS_NAME" value="testcases.TestRandomProductPage" />
+      <option name="METHOD_NAME" value="testRandomItemPage" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestRandomProductPage.testTheSahabiBookPage" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Project_WafiLife." />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testcases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testcases" />
+      <option name="MAIN_CLASS_NAME" value="testcases.TestRandomProductPage" />
+      <option name="METHOD_NAME" value="testTheSahabiBookPage" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.TestFooterSection" />
+        <item itemvalue="TestNG.TestRandomProductPage.testRandomItemPage" />
+        <item itemvalue="TestNG.TestRandomProductPage.testTheSahabiBookPage" />
         <item itemvalue="TestNG.TestRandomProductPage" />
-        <item itemvalue="TestNG.TestAuthorPage" />
-        <item itemvalue="TestNG.TestAuthorPage.testIndividualAuthorBooks" />
-        <item itemvalue="TestNG.TestBookFairPage.testBookFairPageBooks" />
-        <item itemvalue="TestNG.TestHomePage.testSearchBar" />
+        <item itemvalue="TestNG.TestRandomProductPage.testIndividualAuthorBooks" />
       </list>
     </recent_temporary>
   </component>

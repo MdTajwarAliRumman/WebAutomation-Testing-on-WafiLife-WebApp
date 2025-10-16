@@ -1,5 +1,6 @@
 package testcases;
 
+import io.qameta.allure.Description;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
@@ -21,7 +22,8 @@ public class  TestTrendingBookPage extends DriverSetup {
         trendingBookPage.navigateToTrendingPage();
     }
 
-    @Test
+    @Test(description = "Testing Trending book page option.")
+    @Description("Testing Trending book page option Along with the different books selection and elements and lastly the book purchase")
     public void testTrendingBookSection() throws InterruptedException {
         Actions actions = new Actions(getDriver());
 

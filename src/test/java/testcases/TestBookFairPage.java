@@ -1,5 +1,6 @@
 package testcases;
 
+import io.qameta.allure.Description;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
@@ -21,7 +22,8 @@ public class TestBookFairPage extends DriverSetup {
         bookFairPage.navigateToBookFairPage();
     }
 
-    @Test
+    @Test(description = "Testing the bookfair section page")
+    @Description("Testing various section of the page including book,placeOrder, viewMore and card and add purchase")
     public void testBookFairPageBooks() throws InterruptedException {
 //        WebElement muslimItihash = bookFairPage.getElement(bookFairPage.muslim_itihash);
 //        js.executeScript("arguments[0].scrollIntoView()", muslimItihash);
@@ -33,7 +35,6 @@ public class TestBookFairPage extends DriverSetup {
         bookFairPage.clickOnElement(bookFairPage.viewMore_btn);
         bookFairPage.clickOnElement(bookFairPage.cart);
         bookFairPage.clickOnElement(bookFairPage.crossIcon);
-
 
         Thread.sleep(2000);
     }

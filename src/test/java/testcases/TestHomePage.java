@@ -1,5 +1,6 @@
 package testcases;
 
+import io.qameta.allure.Description;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
@@ -26,7 +27,8 @@ public class TestHomePage extends DriverSetup {
 //        getDriver().get(homePage.title);
 //        Assert.assertEquals(homePage.getPageTitle(), homePage.title);
 //    }
-    @Test
+    @Test(description = "Testing the searchbar")
+    @Description("Should be able to maintain the proper flow")
     public void testSearchBar() throws InterruptedException {
 //        homePage.clickOnElement(homePage.search_field);
         Actions actions = new Actions(getDriver());

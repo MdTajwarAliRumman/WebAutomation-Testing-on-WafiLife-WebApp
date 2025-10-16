@@ -18,7 +18,17 @@ public class HomePage extends BasePage {
     public By food_items = By.xpath("//h3[normalize-space()='Food']");
     public By food1 = By.xpath("//div[contains(@class,'owl-item active')]//a[contains(text(),'Sabuj Udyog – Sundarban Natural Honey (সুন্দরবনের ')]");
     public By different_items = By.xpath("//h3[contains(text(),'অন্যান্য পণ্য')]");
+    public By islamic_items = By.xpath("//h3[contains(text(),'ইসলামি পণ্য')]");
+    public By tupi_items = By.xpath("//body//div[@class='body-wrapper']//div[@class='wafi_products']//div[@class='wafi_products']//div[@class='row']//div[9]//div[1]//a[1]");
+    public By sahabi_book = By.xpath("//h3[contains(text(),'সাহাবীদের জীবনী')]");
+    public By book2_Select = By.xpath("//div[@class='owl-item active']//a[contains(text(),'মুহাজির সাহাবিদের জীবনকথা ১ম ও ২য় খন্ড')]");
+    public By footer_title = By.xpath("//div[@class='textwidget custom-html-widget']//img[@title='WafiLife']");
 
+    public By blog = By.xpath("//a[contains(text(),'ব্লগ')]");
+    public By contact  = By.xpath("//a[contains(text(),'যোগাযোগ করুন')]");
+    public By conditions_link  = By.xpath("//a[contains(text(),'শর্তাবলী')]");
+    public By social_link = By.xpath("//i[@class='fa fa-facebook']");
+    public By package_btn  = By.xpath("//a[@href='/cat/home-product/প্যাকেজ/']");
     public void loadHomePage() {
         loadAWebPage(url);
     }
